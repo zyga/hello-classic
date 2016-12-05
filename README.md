@@ -12,7 +12,7 @@ chroot).
 ## Building and testing
 
 This snap cannot be built with _snapcraft_ just yet. For now just build it
-manually with "make snap".
+manually with `make`.
 
 ## Installation
 
