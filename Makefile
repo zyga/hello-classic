@@ -4,7 +4,7 @@ all: hello-classic_0.1_amd64.snap
 hello-classic: hello-classic.c
 
 hello-classic_0.1_amd64.snap: hello-classic
-	mksquashfs . $@ -ef .gitignore -noappend -no-xattrs -comp xz
+	mksquashfs . $@ -e $@ -noappend -no-xattrs -comp xz
 
 .PHONY: clean
 clean:
