@@ -1,0 +1,8 @@
+name: hello-classic
+version: 0.1
+summary: A hello-world with classic confinement
+architectures: [amd64]
+apps:
+    hello-classic:
+        command: hello-classic
+confinement: classic
