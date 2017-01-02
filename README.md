@@ -11,17 +11,15 @@ chroot).
 
 ## Building and testing
 
-This snap cannot be built with _snapcraft_ just yet. For now just build it
-manually with `make`.
+Ensure that you have snapcraft version at least 2.24 (run `snapcraft --version`
+to check). To build the snap just run `snapcraft`.
 
 ## Installation
 
-To install your new snap you need a not-yet-merged version of snapd and snap-confine. 
-
-- https://github.com/snapcore/snapd/pull/2406
-- https://github.com/snapcore/snap-confine/commits/classic-switch
-
-Installation instructions for the branches above will be added shortly.
+Install this snap just as any regular snap. If built locally please use `snap
+install --dangerous --classic hello-classic_*.snap`. Note the presence of
+`--classic` switch. This switch tells snapd that you allow this snap to be
+installed with classic confinement.
 
 ## Exploration
 
