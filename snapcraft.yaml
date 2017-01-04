@@ -1,0 +1,14 @@
+name: hello-classic
+version: 0.1
+summary: A hello-world with classic confinement
+description: |
+    A trivial hello-world snap that is using classic confinement.
+apps:
+    hello-classic:
+        command: hello-classic
+confinement: classic
+grade: stable
+parts:
+    hello-classic:
+        source: .
+        plugin: make
