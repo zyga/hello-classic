@@ -5,7 +5,7 @@ description: |
     A trivial hello-world snap that is using classic confinement.
 apps:
     hello-classic:
-        command: hello-classic
+        command: ./usr/bin/hello-classic
 confinement: classic
 grade: stable
 parts:
